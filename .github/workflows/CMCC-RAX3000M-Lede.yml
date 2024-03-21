@@ -4,7 +4,7 @@ name: CMCC-RAX3000M-Lede
 on:
   #自动编译：每天早上4点
   schedule:
-    - cron: 0 4 1-28/7 * *
+    - cron: 0 4 7-28/7 * *
   #手动编译
   workflow_dispatch:
 
